@@ -17,7 +17,7 @@
     "nodejs",
     "expressjs"
   ],
-  "author": "smsj",
+  "author": "Hmdgh",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
