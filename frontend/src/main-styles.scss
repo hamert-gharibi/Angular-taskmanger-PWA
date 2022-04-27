@@ -1,0 +1,35 @@
+//this is where we put globsl styles and change varieble values  
+
+
+//import fonts(Lato and nunito)
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+$turquoise:#44ddd0;
+$green:#171A2E;
+$light-green:#45f96e;
+$dark-green:rgb(0 100 80);
+$black:#010D00;
+$light:#f8f8f8;
+$blue:#041326;
+
+//Update bulmas global variebles
+$family-sans-serif:"Nunito",
+sans-serif;
+$primary:$green;
+
+$link:$light-green;
+
+//update some of baluma component varieables 
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow:none;
+
+//set costum global style (will be applied to whole app)
+html {
+    background: linear-gradient(to right, $blue, $black)
+}
+
+html,
+body {
+    height: 100%;
+}
